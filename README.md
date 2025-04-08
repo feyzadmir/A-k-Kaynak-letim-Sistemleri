@@ -1,2 +1,2 @@
-# A-k-Kaynak-letim-Sistemleri
+# Açık Kaynak İşletim Sistemleri
 Notlarım
