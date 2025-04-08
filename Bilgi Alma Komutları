@@ -1,5 +1,5 @@
 LİNUX DOSYA SİSTEMİNDE YAYGIN KULLANILAN BİLGİ ALMA KOMUTLARI
-KOMUT	            AÇIKLAMA
+
 Help:	            Kabuk komutlarının listesini gösterir.
 Man:              Man sayfaları Linux sisteminde detaylı bilgi alma komutudur.
 apropos:	        Yardım almak için kullanılır. Arka planda man – k komutu gibi çalışır. Eğer aradığınız yardımı man sayfalarında bulamıyorsak, man dizin belleğini güncellemek için mandb komutu kullanılır.
