@@ -1,0 +1,99 @@
+touch: Bir metin dosyası oluşturmanın en kolay yollarından
+biridir.
+
+cat: Dosya içeriğini görmek için kullanılır. Text ve script dosyaları cat komutu ile
+görüntülenebilir.
+Dosyanın içerisine yazı yazmak için cat > operatörü
+kullanılır ve istenilen ifadeler yazıldıktan sonra
+CTRL+D ile yazı sonlandırılır.
+Metin dosyalarının içeriği terminalden okunabilir.
+cat /etc/passwd komutu ile dosyanın içerisine
+bakılabilir. Eğer düzenli görünmesini istiyorsak
+cat –n /etc/passwd kullanılmalıdır.
+
+echo: Bu komut ile istenilen ifadeler terminal ekranına
+çıktı olarak gönderilir. Bunun yanında bir dosya
+oluşturup içine istenilen ifadeler yazılabilir.
+Komut çıktıları bir dosyaya yönlendirilebilir.
+ls –l komutunun çıktısını list adında dosya oluşturup
+içerisine yönlendirelim. Bunun için de ls –l > list
+yazmak yeterlidir.
+echo c* komutu ile bulunduğunuz dizindeki ‘c’ ile
+başlayanları listeler.
+echo *t komutu ile bulunduğunuz dizindeki son
+harfi ‘t’ olanlar listeler.
+
+more: Bu komut daha çok komut çıktısının uzun olduğu
+durumlarda çıktıyı rahat okuyabilmek için kullanılır. Bir önceki sayfaya dönmek için b tuşu çıkmak için ise
+q tuşu kullanılır.
+
+less: Bu komut daha çok komut çıktısının uzun olduğu
+durumlarda çıktıyı rahat okuyabilmek için kullanılır. 
+
+head-tail: Dosya içeriğini görüntülerken ilk on satırı
+görüntülemek için head, son on satırı görüntülemek
+için tail kullanılır. Eğer belli bir sayıda satırı
+görüntülemek istersek –n parametresi ile kullanılır.
+
+sort: Metin dosyasını alfabetik olarak terminale
+yansıtmak için kullanılır. Eğer sort –r şeklinde
+kullanırsak ters alfabetik olarak yansıtılır.
+
+wc: Bir dosya içerisindeki satır, karakter ya da kelime sayısını
+öğrenmek için wc (wordcount) kullanılır.
+–l parametresi ile satır,
+-c parametresi ile karakter,
+-w parametresi ile kelime sayısı öğrenilir.
+Eğer sadece wc şeklinde parametresiz kullanılırsa hepsini gösterir.
+
+Paste: İki ya da daha fazla dosyada bulunan karşılıklı satırları aralarına tab boşluğu koyarak yan yana listelemek için
+kullanılır. İsterseniz iki dosyanın içeriğini birleştirip
+yeni bir dosyaya yönlendirme yapabilirsiniz.
+
+grep: Dosyalar içerisinde ya da komut çıktısı içerisinde bir ifade (string) aramak için kullanılır.
+-v: Komutun davranışını tersine çevirir, yani aranılan
+kelimeyi içermeyen satırlar listelenir.
+-i: Arama sırasında büyük/küçük ayrımı yapılmaz.
+-r: Verilen dizinin alt dizinlerinde arama yapar.
+-n: Aranan kelimenin geçtiği satır numarasını gösterir.
+-c: Belirtilen dizinde aradığınız kelimenin kaç kere geçtiğini gösterir.
+-l: Şablona uygun satırların bulunduğu dosya adlarını listeler.
+
+cp: Kopyalama komutu olan cp kullanım formu p<kaynak><hedef> şeklindedir. 
+Örneğin fileA dosyasını başka bir lokasyona fileB adıyla kopyalamak
+için cp fileA fileB komutunu kullanırız.
+
+mv: Dosya taşımak için kullanılır. Bu komutun kullanımı cp
+komutunun kullanımı gibidir.
+
+rm: Dosya ve dizinleri silme işlemlerinde kullanılan
+komuttur.
+
+mkdir: Dizin oluşturma komutudur. Eğer birden fazla dizin
+oluşturulacaksa mkdir<deneme1><deneme2>… gibi
+komut kullanılabilir. Bir dizin alt dizinleri ile
+oluşturmak için –p parametresi kullanılır.
+
+rm ile dizin silme: Eğer dizini alt dizin ve
+dosyalarıyla beraber silmek istiyorsak rm -r, silerken
+bize sorsun istiyorsak rm -ri, sorgusuz silmesi için rm – rf
+komutu kullanmalıyız.
+
+tar: Arşiv dosyası oluşturmak için temel komuttur.
+
+umask: Kullanıcıların herhangi bir dosya oluştururken default
+olarak dosya izinlerinin oluşturulmasına yarar.
+Bu izinler her kullanıcının açılış dosyalarının içinde veya
+sistemin default umask tanımlamasında mevcuttur.
+Umask komutu neticesinde dönen 3 rakamlı blok sizin umask değerlerinizdir.
+
+Chmod (Change Mode ): Linux sistemlerde kullanıcıların dosyalara
+erişim haklarını belirlemek için “chmod” komutu kullanılınır.
+
+
+
+
+
+
+
+
